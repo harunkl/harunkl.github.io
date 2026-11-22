@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.harunkl.twa",
-        "sha256_cert_fingerprints": ["16:A6:38:B5:06:FF:D6:55:0E:C1:AD:49:8D:E1:A4:1F:AC:61:FF:83:1B:D9:C9:F7:72:0A:BB:7D:2D:C9:A3:D8"]
-      }
-    }]
