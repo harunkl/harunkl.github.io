@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mengalihkan ke Agro Aqua Capital...</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 36px 20px; color: #0f172a; }
+    a { display: inline-block; margin-top: 16px; padding: 10px 16px; background: #0284c7; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h3>Login Google Berhasil</h3>
+  <p>Mengalihkan kembali ke aplikasi Agro Aqua Capital...</p>
+  <a id="openAppBtn" href="#">Buka Aplikasi Sekarang</a>
+  <script>
+    const hash = window.location.hash || '';
+    const appUrl = 'com.agroaqua.capital://oauth' + hash;
+    document.getElementById('openAppBtn').href = appUrl;
+    window.location.replace(appUrl);
+  </script>
+</body>
+</html>
